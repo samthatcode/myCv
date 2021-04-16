@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background: rgb(243, 239, 239);
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    margin: 0;
+    font-weight: 400;
+}
+h2 {
+    margin: 0;
+    font-weight: 400;
+    display: inline; 
+}
+.box {
+    background: #fff;
+    width: 75rem;
+    padding: 3rem;
+    margin: 1rem auto;
+    border-radius: .5rem;
+}
+.header {
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+.header-left {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    font-size: 2rem;
+}
+.first-name {
+    font-weight: 400;
+    margin: 0;
+}
+
+.last-name {
+    font-weight: 200;
+    margin: 0;
+}
+
+.header-right {
+    width: 100%;
+    display: grid;
+    justify-items: end;
+    font-size: x-large;
+}
+.header-right p {
+    display: inline;
+    font-weight: 100;
+}
+
+.icon {
+    color: rgb(190, 190, 190);
+    font-size: 1.5rem;
+    margin-right: .5rem;
+}
+.grey {
+    background: rgb(133, 133, 133);
+    color: #fff;
+    padding: .5rem;
+    border-radius: .4rem;
+}
+table {
+    border: 2px solid #000;
+    margin: 1rem 0;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+td, th {
+    border: 1px solid #000;
+    padding: .4rem;
+}
